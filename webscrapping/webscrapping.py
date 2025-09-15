@@ -15,7 +15,7 @@ class Scraper:
         for _ in range(num_threads):
             self.workers.append(Thread(target=self.worker, daemon=True))
         with open(self.output_file, 'w') as f:
-            json.dump([], f)
+            pass
 
     def worker(self):
         driver = webdriver.Chrome()
@@ -29,12 +29,9 @@ class Scraper:
         '''Extract patent data here and append to buffer'''
 
     def flush(self):
-        with open(self.output_file, 'r+', encoding='utf-8') as f:
-            existing_data = json.load(f)
-            existing_data.extend(self.buffer)
-            f.seek(0)
-            json.dump(existing_data, f, indent=4, ensure_ascii=False)
-            f.truncate()
+        with open(self.output_file, 'a', encoding='utf-8') as f:
+            for item in self.buffer:
+                f.write(json.dumps(item, ensure_ascii=False) + '\n')
         self.buffer = []
 
     def buffer_append(self, data):
