@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-class Scraper:
+class Scrapper:
 
     def __init__(self, urls, num_threads=8, output_file='./webscrapping/patents.jsonl', ):
         self.remaining_urls = urls
@@ -17,27 +17,38 @@ class Scraper:
         self.buffer = []
         self.buffer_lock = Lock()
         self.workers = []
+        self.error = []
+        self.error_lock = Lock()
         for _ in range(num_threads):
             self.workers.append(Thread(target=self.worker, daemon=True))
         with open(self.output_file, 'w') as f:
             pass
 
     def worker(self):
-        driver = webdriver.Chrome()
+        options = webdriver.ChromeOptions()
+        options.add_argument('--headless')
+        options.add_argument('--disable-gpu')
+        options.add_argument('--no-sandbox')
+        driver = webdriver.Chrome(options=options)
         while True:
             with self.urls_lock:
                 if not self.remaining_urls:
                     break
                 url = self.remaining_urls.pop()
-            self.scrap(driver, url)
+                self.scrap(driver, url)
         driver.quit()
 
     def scrap(self, driver, url):
-        driver.get(url)
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "pubnum")))
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        patent_data = extract_patent_data(soup)
-        self.buffer_append(patent_data)
+        try:
+            driver.get(url)
+            WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.ID, "pubnum")))
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            patent_data = extract_patent_data(soup)
+            self.buffer_append(patent_data)
+        except Exception as e:
+            with self.error_lock:
+                self.error.append(url)
+
 
     def flush(self):
         with open(self.output_file, 'a', encoding='utf-8') as f:
@@ -63,6 +74,9 @@ if __name__ == "__main__":
     with open('./webscrapping/urls.txt', 'r') as f:
         urls = [line.strip() for line in f if line.strip()]
 
-    scraper = Scraper(urls, num_threads=2)
-    scraper.run()
+    scrapper = Scrapper(urls, num_threads=4)
+    scrapper.run()
+    scrapper.flush()
+    scrapper.dump_errors()
+
     print("Scraping completed.")
