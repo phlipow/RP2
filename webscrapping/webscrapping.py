@@ -1,13 +1,18 @@
+from elements import extract_patent_data
 from selenium import webdriver
 from time import sleep
 from bs4 import BeautifulSoup
 import json
 from threading import Thread, Lock
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 class Scraper:
 
-    def __init__(self, urls, num_threads=8, output_file='./webscrapping/patents.json', ):
+    def __init__(self, urls, num_threads=8, output_file='./webscrapping/patents.jsonl', ):
         self.remaining_urls = urls
+        self.urls_lock = Lock()
         self.output_file = output_file
         self.buffer = []
         self.buffer_lock = Lock()
@@ -19,14 +24,20 @@ class Scraper:
 
     def worker(self):
         driver = webdriver.Chrome()
-        while self.remaining_urls:
-            url = self.remaining_urls.pop()
+        while True:
+            with self.urls_lock:
+                if not self.remaining_urls:
+                    break
+                url = self.remaining_urls.pop()
             self.scrap(driver, url)
         driver.quit()
 
-    #TODO
     def scrap(self, driver, url):
-        '''Extract patent data here and append to buffer'''
+        driver.get(url)
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "pubnum")))
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        patent_data = extract_patent_data(soup)
+        self.buffer_append(patent_data)
 
     def flush(self):
         with open(self.output_file, 'a', encoding='utf-8') as f:
@@ -46,3 +57,12 @@ class Scraper:
         for worker in self.workers:
             worker.join()
         self.flush()
+
+if __name__ == "__main__":
+
+    with open('./webscrapping/urls.txt', 'r') as f:
+        urls = [line.strip() for line in f if line.strip()]
+
+    scraper = Scraper(urls, num_threads=2)
+    scraper.run()
+    print("Scraping completed.")
