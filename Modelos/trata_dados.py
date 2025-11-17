@@ -46,16 +46,55 @@ def get_conjunto_rotulado(df):
     df.drop(columns=['foward_citations_count'], inplace=True)
 
     # --- Etapa 4: Verificação da Rotulagem (como você já tinha) ---
-    print("\n--- Resultados da Rotulagem ---")
-    print("Contagem de valores na nova coluna 'promissora':")
-    print(df['promissora'].value_counts(normalize=True))
+    import pandas as pd
 
-    # Verificação detalhada por ano para garantir que a proporção está correta
-    print("\nVerificando a proporção de patentes promissoras por ano:")
-    # Criamos uma coluna temporária 'ano' para facilitar o groupby na verificação
+    # Supondo que 'df' e 'application_date' já existem e estão formatados
+
+    # --- 1. Verificação Total (Absoluta e Proporcional) ---
+    print("\n--- Resultados da Rotulagem (Contagem Total) ---")
+    print("Contagem Absoluta de 'promissora':")
+    contagem_abs = df['promissora'].value_counts()
+    contagem_abs.index = contagem_abs.index.map({1: 'Promissoras (1)', 0: 'Não Promissoras (0)'})
+    print(contagem_abs)
+
+    print("\nProporção Total de 'promissora':")
+    contagem_prop = df['promissora'].value_counts(normalize=True)
+    contagem_prop.index = contagem_prop.index.map({1: 'Promissoras (1)', 0: 'Não Promissoras (0)'})
+    print(contagem_prop.apply(lambda x: f"{x:.2%}"))  # Formata como porcentagem
+    print("-" * 50)
+
+    # --- 2. Verificação Detalhada por Ano (Absoluta e Proporcional) ---
+    print("\nVerificando a contagem e proporção de patentes por ano:")
+
+    # Criamos uma coluna temporária 'ano'
     df['ano'] = df['application_date'].dt.year
-    verificacao_anual = df.groupby('ano')['promissora'].agg(['mean', 'count'])
-    verificacao_anual.rename(columns={'mean': 'proporcao_promissoras', 'count': 'total_patentes'}, inplace=True)
+
+    # Modificamos a agregação para incluir 'mean' (que é a proporção)
+    # 'sum' == total de promissoras (valor 1)
+    # 'count' == total de patentes
+    # 'mean' == proporção de promissoras (sum / count)
+    verificacao_anual = df.groupby('ano')['promissora'].agg(['sum', 'count', 'mean'])
+
+    # Calculamos as 'nao_promissoras'
+    verificacao_anual['nao_promissoras_count'] = verificacao_anual['count'] - verificacao_anual['sum']
+
+    # Renomeamos as colunas para clareza
+    verificacao_anual.rename(columns={
+        'sum': 'promissoras_count',
+        'count': 'total_patentes',
+        'mean': 'proporcao_promissoras'
+    }, inplace=True)
+
+    # Reordenamos as colunas para melhor visualização
+    verificacao_anual = verificacao_anual[[
+        'promissoras_count',
+        'nao_promissoras_count',
+        'total_patentes',
+        'proporcao_promissoras'
+    ]]
+
+    # Formatamos a coluna de proporção para ficar mais legível (opcional)
+    verificacao_anual['proporcao_promissoras'] = verificacao_anual['proporcao_promissoras'].apply(lambda x: f"{x:.2%}")
 
     print(verificacao_anual)
 
