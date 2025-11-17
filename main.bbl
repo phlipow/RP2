@@ -1,0 +1,1091 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/apasortcite//global/global}
+    \entry{EMBRAPA2025c}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=93d0538694c7a39a1318d4b9f57e6271}{%
+           family={Barros},
+           familyi={B\bibinitperiod},
+           given={Talita\bibnamedelima Delgrossi},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Empresa Brasileira De Pesquisa Agropecuária - EMBRAPA}%
+      }
+      \strng{namehash}{93d0538694c7a39a1318d4b9f57e6271}
+      \strng{fullhash}{93d0538694c7a39a1318d4b9f57e6271}
+      \strng{bibnamehash}{93d0538694c7a39a1318d4b9f57e6271}
+      \strng{authorbibnamehash}{93d0538694c7a39a1318d4b9f57e6271}
+      \strng{authornamehash}{93d0538694c7a39a1318d4b9f57e6271}
+      \strng{authorfullhash}{93d0538694c7a39a1318d4b9f57e6271}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{Etanol}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/tematicas/agroenergia/p-d-e-i/etanol
+      \endverb
+      \verb{url}
+      \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/tematicas/agroenergia/p-d-e-i/etanol
+      \endverb
+    \endentry
+    \entry{Chung2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9e0e1cb9b07d95370de0056e32d5fd79}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a48868d4b7e2996a44219cbaef3fb20}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa5a7c8780167efaa3ed45566a0806a0}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a3ccf1148b9220fb7f589953285ce087}
+      \strng{fullhash}{f3c076cef28c1fb0374d9393ae730ca8}
+      \strng{bibnamehash}{f3c076cef28c1fb0374d9393ae730ca8}
+      \strng{authorbibnamehash}{f3c076cef28c1fb0374d9393ae730ca8}
+      \strng{authornamehash}{a3ccf1148b9220fb7f589953285ce087}
+      \strng{authorfullhash}{f3c076cef28c1fb0374d9393ae730ca8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technological Forecasting and Social Change}
+      \field{title}{Early detection of valuable patents using a deep learning model: Case of semiconductor industry}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040162520309720
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040162520309720
+      \endverb
+    \endentry
+    \entry{CONAB2021}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bbf5e4695f8d36c23b279486756a8fad}{%
+           family={{CONAB - Companhia Nacional de Abastecimento}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{bbf5e4695f8d36c23b279486756a8fad}
+      \strng{fullhash}{bbf5e4695f8d36c23b279486756a8fad}
+      \strng{bibnamehash}{bbf5e4695f8d36c23b279486756a8fad}
+      \strng{authorbibnamehash}{bbf5e4695f8d36c23b279486756a8fad}
+      \strng{authornamehash}{bbf5e4695f8d36c23b279486756a8fad}
+      \strng{authorfullhash}{bbf5e4695f8d36c23b279486756a8fad}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{Série Histórica das Safras}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.conab.gov.br/info-agro/safras/serie-historica-das-safras
+      \endverb
+      \verb{url}
+      \verb https://www.conab.gov.br/info-agro/safras/serie-historica-das-safras
+      \endverb
+    \endentry
+    \entry{EMBRAPA2025b}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7fc6ab8a95aff5dda9232de51ffabbf0}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={Ana\bibnamedelima Lucia},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Empresa Brasileira De Pesquisa Agropecuária - EMBRAPA}%
+      }
+      \strng{namehash}{7fc6ab8a95aff5dda9232de51ffabbf0}
+      \strng{fullhash}{7fc6ab8a95aff5dda9232de51ffabbf0}
+      \strng{bibnamehash}{7fc6ab8a95aff5dda9232de51ffabbf0}
+      \strng{authorbibnamehash}{7fc6ab8a95aff5dda9232de51ffabbf0}
+      \strng{authornamehash}{7fc6ab8a95aff5dda9232de51ffabbf0}
+      \strng{authorfullhash}{7fc6ab8a95aff5dda9232de51ffabbf0}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{Estudo mostra que etanol de cana emite menos gás carbônico para a atmosfera do que a gasolina}}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://www.embrapa.br/busca-de-noticias/-/noticia/18044516/estudo-mostra-que-etanol-de-cana-emite-menos-gas-carbonico-para-a-atmosfera-do-que-a-gasolina
+      \endverb
+      \verb{url}
+      \verb https://www.embrapa.br/busca-de-noticias/-/noticia/18044516/estudo-mostra-que-etanol-de-cana-emite-menos-gas-carbonico-para-a-atmosfera-do-que-a-gasolina
+      \endverb
+    \endentry
+    \entry{IBM2}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=42e19675a1b3c5398649e2689d39cdc3}{%
+           family={{IBM - INTERNATIONAL BUSINESS MACHINES}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{fullhash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{bibnamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authorbibnamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authornamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authorfullhash}{42e19675a1b3c5398649e2689d39cdc3}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{O que é random forest?}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.ibm.com/br-pt/think/topics/random-forest
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/br-pt/think/topics/random-forest
+      \endverb
+    \endentry
+    \entry{IBM1}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=42e19675a1b3c5398649e2689d39cdc3}{%
+           family={{IBM - INTERNATIONAL BUSINESS MACHINES}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{fullhash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{bibnamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authorbibnamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authornamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authorfullhash}{42e19675a1b3c5398649e2689d39cdc3}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{O que é uma árvore de decisão?}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.ibm.com/br-pt/think/topics/decision-trees
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/br-pt/think/topics/decision-trees
+      \endverb
+    \endentry
+    \entry{IBM3}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=42e19675a1b3c5398649e2689d39cdc3}{%
+           family={{IBM - INTERNATIONAL BUSINESS MACHINES}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{fullhash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{bibnamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authorbibnamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authornamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authorfullhash}{42e19675a1b3c5398649e2689d39cdc3}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{O que são SVMs?}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.ibm.com/br-pt/think/topics/support-vector-machine
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/br-pt/think/topics/support-vector-machine
+      \endverb
+    \endentry
+    \entry{INPI2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=60f9afa5de0c0266b818bea14618b558}{%
+           family={{INPI - Instituto Nacional da Propriedade Industrial}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \list{publisher}{1}{%
+        {INPI}%
+      }
+      \strng{namehash}{60f9afa5de0c0266b818bea14618b558}
+      \strng{fullhash}{60f9afa5de0c0266b818bea14618b558}
+      \strng{bibnamehash}{60f9afa5de0c0266b818bea14618b558}
+      \strng{authorbibnamehash}{60f9afa5de0c0266b818bea14618b558}
+      \strng{authornamehash}{60f9afa5de0c0266b818bea14618b558}
+      \strng{authorfullhash}{60f9afa5de0c0266b818bea14618b558}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{note}{{Boletim publicado pela Presidência, Diretoria Executiva, Assessoria de Assuntos Econômicos (AECON).}}
+      \field{title}{{Boletim mensal de propriedade industrial: estatísticas preliminares}}
+      \field{year}{2023}
+    \endentry
+    \entry{Lee2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=20d65bbd5cff87c6e56f00ee4f6cff8d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Chih-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4149340bc388abb627321731645513a}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ef692d552eb27d0114a922e4e557fa9}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yan-Yun},
+           giveni={Y\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ba771da020e11c6a01264ab3c2f1c3a}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Hsuan-Li},
+           giveni={H\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f7cf1561356718f862e3d0382377d80}
+      \strng{fullhash}{98402c402f5a55427cf91ab13d203fda}
+      \strng{bibnamehash}{98402c402f5a55427cf91ab13d203fda}
+      \strng{authorbibnamehash}{98402c402f5a55427cf91ab13d203fda}
+      \strng{authornamehash}{8f7cf1561356718f862e3d0382377d80}
+      \strng{authorfullhash}{98402c402f5a55427cf91ab13d203fda}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Axioms}
+      \field{number}{6}
+      \field{title}{{Development of Patent Technology Prediction Model Based on Machine Learning}}
+      \field{volume}{11}
+      \field{year}{2022}
+      \field{pages}{253}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/axioms11060253
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2075-1680/11/6/253
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2075-1680/11/6/253
+      \endverb
+    \endentry
+    \entry{ONU2025}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=743e67da76946a8fc63ba9b9826883e4}{%
+           family={{ONU - Organização das Nações Unidas}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{743e67da76946a8fc63ba9b9826883e4}
+      \strng{fullhash}{743e67da76946a8fc63ba9b9826883e4}
+      \strng{bibnamehash}{743e67da76946a8fc63ba9b9826883e4}
+      \strng{authorbibnamehash}{743e67da76946a8fc63ba9b9826883e4}
+      \strng{authornamehash}{743e67da76946a8fc63ba9b9826883e4}
+      \strng{authorfullhash}{743e67da76946a8fc63ba9b9826883e4}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{7 - Energia limpa e acessível}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://brasil.un.org/pt-br/sdgs/7
+      \endverb
+      \verb{url}
+      \verb https://brasil.un.org/pt-br/sdgs/7
+      \endverb
+    \endentry
+    \entry{Perrone2011}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fca834360481dd7ae802ec97e5920503}{%
+           family={Perrone},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d2eb4b6fff833e95b8933ac6faea5f7}{%
+           family={Appel},
+           familyi={A\bibinitperiod},
+           given={L.\bibnamedelimi G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=454b01b0c286b6cf54141537e8b9b416}{%
+           family={Lellis},
+           familyi={L\bibinitperiod},
+           given={V.\bibnamedelimi L.\bibnamedelimi M.},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64b6a850e246eb39e448e4e0d06212f3}
+      \strng{fullhash}{d751a3faa83f38703eae12b171d0d214}
+      \strng{bibnamehash}{d751a3faa83f38703eae12b171d0d214}
+      \strng{authorbibnamehash}{d751a3faa83f38703eae12b171d0d214}
+      \strng{authornamehash}{64b6a850e246eb39e448e4e0d06212f3}
+      \strng{authorfullhash}{d751a3faa83f38703eae12b171d0d214}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Waste Biomass Valor}
+      \field{title}{Ethanol: An Evaluation of its Scientific and Technological Development and Network of Players During the Period of 1995 to 2009}
+      \field{volume}{2}
+      \field{year}{2011}
+      \field{pages}{17\bibrangedash 32}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s12649-010-9049-z
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s12649-010-9049-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s12649-010-9049-z
+      \endverb
+    \endentry
+    \entry{SEADE2025}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e9f87b03e6dceefff782ec78c67c1e96}{%
+           family={{SEADE - Sistema Estadual de Análise de Dados}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9f87b03e6dceefff782ec78c67c1e96}
+      \strng{fullhash}{e9f87b03e6dceefff782ec78c67c1e96}
+      \strng{bibnamehash}{e9f87b03e6dceefff782ec78c67c1e96}
+      \strng{authorbibnamehash}{e9f87b03e6dceefff782ec78c67c1e96}
+      \strng{authornamehash}{e9f87b03e6dceefff782ec78c67c1e96}
+      \strng{authorfullhash}{e9f87b03e6dceefff782ec78c67c1e96}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{São Paulo lidera produção de etanol no país}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://informa.seade.gov.br/sao-paulo-lidera-producao-de-etanol-no-pais/
+      \endverb
+      \verb{url}
+      \verb https://informa.seade.gov.br/sao-paulo-lidera-producao-de-etanol-no-pais/
+      \endverb
+    \endentry
+    \entry{SEBRAE2025}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9eab6cc4b12848dca8d17f04e3b7b635}{%
+           family={{SEBRAE - Serviço Brasileiro de Apoio às Micro e Pequenas Empresas}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9eab6cc4b12848dca8d17f04e3b7b635}
+      \strng{fullhash}{9eab6cc4b12848dca8d17f04e3b7b635}
+      \strng{bibnamehash}{9eab6cc4b12848dca8d17f04e3b7b635}
+      \strng{authorbibnamehash}{9eab6cc4b12848dca8d17f04e3b7b635}
+      \strng{authornamehash}{9eab6cc4b12848dca8d17f04e3b7b635}
+      \strng{authorfullhash}{9eab6cc4b12848dca8d17f04e3b7b635}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{O que é patente?}}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://sebrae.com.br/sites/PortalSebrae/ufs/mt/artigos/o-que-e-patente,af88f8ba5a17a510VgnVCM1000004c00210aRCRD
+      \endverb
+      \verb{url}
+      \verb https://sebrae.com.br/sites/PortalSebrae/ufs/mt/artigos/o-que-e-patente,af88f8ba5a17a510VgnVCM1000004c00210aRCRD
+      \endverb
+    \endentry
+    \entry{EMBRAPA2025a}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=11a3f921148f50765bf93fa3e1064a43}{%
+           family={Vian},
+           familyi={V\bibinitperiod},
+           given={Carlos\bibnamedelimb Eduardos\bibnamedelima Freitas},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Empresa Brasileira De Pesquisa Agropecuária - EMBRAPA}%
+      }
+      \strng{namehash}{11a3f921148f50765bf93fa3e1064a43}
+      \strng{fullhash}{11a3f921148f50765bf93fa3e1064a43}
+      \strng{bibnamehash}{11a3f921148f50765bf93fa3e1064a43}
+      \strng{authorbibnamehash}{11a3f921148f50765bf93fa3e1064a43}
+      \strng{authornamehash}{11a3f921148f50765bf93fa3e1064a43}
+      \strng{authorfullhash}{11a3f921148f50765bf93fa3e1064a43}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{Etanol}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/cultivos/cana/pos-producao/alcool/tecnologias-emergentes/etanol
+      \endverb
+      \verb{url}
+      \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/cultivos/cana/pos-producao/alcool/tecnologias-emergentes/etanol
+      \endverb
+    \endentry
+    \entry{Zhu2005}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c0589c96d31566f50f3aa4f931a33357}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xiaojin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Wisconsin-Madison Department of Computer Sciences}%
+      }
+      \strng{namehash}{c0589c96d31566f50f3aa4f931a33357}
+      \strng{fullhash}{c0589c96d31566f50f3aa4f931a33357}
+      \strng{bibnamehash}{c0589c96d31566f50f3aa4f931a33357}
+      \strng{authorbibnamehash}{c0589c96d31566f50f3aa4f931a33357}
+      \strng{authornamehash}{c0589c96d31566f50f3aa4f931a33357}
+      \strng{authorfullhash}{c0589c96d31566f50f3aa4f931a33357}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Semi-Supervised Learning Literature Survey}}
+      \field{type}{techreport}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb http://digital.library.wisc.edu/1793/60444
+      \endverb
+      \verb{url}
+      \verb http://digital.library.wisc.edu/1793/60444
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global}
+    \entry{EMBRAPA2025c}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=93d0538694c7a39a1318d4b9f57e6271}{%
+           family={Barros},
+           familyi={B\bibinitperiod},
+           given={Talita\bibnamedelima Delgrossi},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Empresa Brasileira De Pesquisa Agropecuária - EMBRAPA}%
+      }
+      \strng{namehash}{93d0538694c7a39a1318d4b9f57e6271}
+      \strng{fullhash}{93d0538694c7a39a1318d4b9f57e6271}
+      \strng{bibnamehash}{93d0538694c7a39a1318d4b9f57e6271}
+      \strng{authorbibnamehash}{93d0538694c7a39a1318d4b9f57e6271}
+      \strng{authornamehash}{93d0538694c7a39a1318d4b9f57e6271}
+      \strng{authorfullhash}{93d0538694c7a39a1318d4b9f57e6271}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{Etanol}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/tematicas/agroenergia/p-d-e-i/etanol
+      \endverb
+      \verb{url}
+      \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/tematicas/agroenergia/p-d-e-i/etanol
+      \endverb
+    \endentry
+    \entry{Chung2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9e0e1cb9b07d95370de0056e32d5fd79}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a48868d4b7e2996a44219cbaef3fb20}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa5a7c8780167efaa3ed45566a0806a0}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a3ccf1148b9220fb7f589953285ce087}
+      \strng{fullhash}{f3c076cef28c1fb0374d9393ae730ca8}
+      \strng{bibnamehash}{f3c076cef28c1fb0374d9393ae730ca8}
+      \strng{authorbibnamehash}{f3c076cef28c1fb0374d9393ae730ca8}
+      \strng{authornamehash}{a3ccf1148b9220fb7f589953285ce087}
+      \strng{authorfullhash}{f3c076cef28c1fb0374d9393ae730ca8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technological Forecasting and Social Change}
+      \field{title}{Early detection of valuable patents using a deep learning model: Case of semiconductor industry}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040162520309720
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040162520309720
+      \endverb
+    \endentry
+    \entry{CONAB2021}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bbf5e4695f8d36c23b279486756a8fad}{%
+           family={{CONAB - Companhia Nacional de Abastecimento}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{bbf5e4695f8d36c23b279486756a8fad}
+      \strng{fullhash}{bbf5e4695f8d36c23b279486756a8fad}
+      \strng{bibnamehash}{bbf5e4695f8d36c23b279486756a8fad}
+      \strng{authorbibnamehash}{bbf5e4695f8d36c23b279486756a8fad}
+      \strng{authornamehash}{bbf5e4695f8d36c23b279486756a8fad}
+      \strng{authorfullhash}{bbf5e4695f8d36c23b279486756a8fad}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{Série Histórica das Safras}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.conab.gov.br/info-agro/safras/serie-historica-das-safras
+      \endverb
+      \verb{url}
+      \verb https://www.conab.gov.br/info-agro/safras/serie-historica-das-safras
+      \endverb
+    \endentry
+    \entry{EMBRAPA2025b}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7fc6ab8a95aff5dda9232de51ffabbf0}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={Ana\bibnamedelima Lucia},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Empresa Brasileira De Pesquisa Agropecuária - EMBRAPA}%
+      }
+      \strng{namehash}{7fc6ab8a95aff5dda9232de51ffabbf0}
+      \strng{fullhash}{7fc6ab8a95aff5dda9232de51ffabbf0}
+      \strng{bibnamehash}{7fc6ab8a95aff5dda9232de51ffabbf0}
+      \strng{authorbibnamehash}{7fc6ab8a95aff5dda9232de51ffabbf0}
+      \strng{authornamehash}{7fc6ab8a95aff5dda9232de51ffabbf0}
+      \strng{authorfullhash}{7fc6ab8a95aff5dda9232de51ffabbf0}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{Estudo mostra que etanol de cana emite menos gás carbônico para a atmosfera do que a gasolina}}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://www.embrapa.br/busca-de-noticias/-/noticia/18044516/estudo-mostra-que-etanol-de-cana-emite-menos-gas-carbonico-para-a-atmosfera-do-que-a-gasolina
+      \endverb
+      \verb{url}
+      \verb https://www.embrapa.br/busca-de-noticias/-/noticia/18044516/estudo-mostra-que-etanol-de-cana-emite-menos-gas-carbonico-para-a-atmosfera-do-que-a-gasolina
+      \endverb
+    \endentry
+    \entry{IBM2}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=42e19675a1b3c5398649e2689d39cdc3}{%
+           family={{IBM - INTERNATIONAL BUSINESS MACHINES}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{fullhash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{bibnamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authorbibnamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authornamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authorfullhash}{42e19675a1b3c5398649e2689d39cdc3}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{O que é random forest?}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.ibm.com/br-pt/think/topics/random-forest
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/br-pt/think/topics/random-forest
+      \endverb
+    \endentry
+    \entry{IBM1}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=42e19675a1b3c5398649e2689d39cdc3}{%
+           family={{IBM - INTERNATIONAL BUSINESS MACHINES}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{fullhash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{bibnamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authorbibnamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authornamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authorfullhash}{42e19675a1b3c5398649e2689d39cdc3}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{O que é uma árvore de decisão?}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.ibm.com/br-pt/think/topics/decision-trees
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/br-pt/think/topics/decision-trees
+      \endverb
+    \endentry
+    \entry{IBM3}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=42e19675a1b3c5398649e2689d39cdc3}{%
+           family={{IBM - INTERNATIONAL BUSINESS MACHINES}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{fullhash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{bibnamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authorbibnamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authornamehash}{42e19675a1b3c5398649e2689d39cdc3}
+      \strng{authorfullhash}{42e19675a1b3c5398649e2689d39cdc3}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{O que são SVMs?}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.ibm.com/br-pt/think/topics/support-vector-machine
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/br-pt/think/topics/support-vector-machine
+      \endverb
+    \endentry
+    \entry{INPI2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=60f9afa5de0c0266b818bea14618b558}{%
+           family={{INPI - Instituto Nacional da Propriedade Industrial}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \list{publisher}{1}{%
+        {INPI}%
+      }
+      \strng{namehash}{60f9afa5de0c0266b818bea14618b558}
+      \strng{fullhash}{60f9afa5de0c0266b818bea14618b558}
+      \strng{bibnamehash}{60f9afa5de0c0266b818bea14618b558}
+      \strng{authorbibnamehash}{60f9afa5de0c0266b818bea14618b558}
+      \strng{authornamehash}{60f9afa5de0c0266b818bea14618b558}
+      \strng{authorfullhash}{60f9afa5de0c0266b818bea14618b558}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{note}{{Boletim publicado pela Presidência, Diretoria Executiva, Assessoria de Assuntos Econômicos (AECON).}}
+      \field{title}{{Boletim mensal de propriedade industrial: estatísticas preliminares}}
+      \field{year}{2023}
+    \endentry
+    \entry{Lee2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=20d65bbd5cff87c6e56f00ee4f6cff8d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Chih-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4149340bc388abb627321731645513a}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ef692d552eb27d0114a922e4e557fa9}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yan-Yun},
+           giveni={Y\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ba771da020e11c6a01264ab3c2f1c3a}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Hsuan-Li},
+           giveni={H\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f7cf1561356718f862e3d0382377d80}
+      \strng{fullhash}{98402c402f5a55427cf91ab13d203fda}
+      \strng{bibnamehash}{98402c402f5a55427cf91ab13d203fda}
+      \strng{authorbibnamehash}{98402c402f5a55427cf91ab13d203fda}
+      \strng{authornamehash}{8f7cf1561356718f862e3d0382377d80}
+      \strng{authorfullhash}{98402c402f5a55427cf91ab13d203fda}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Axioms}
+      \field{number}{6}
+      \field{title}{{Development of Patent Technology Prediction Model Based on Machine Learning}}
+      \field{volume}{11}
+      \field{year}{2022}
+      \field{pages}{253}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/axioms11060253
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2075-1680/11/6/253
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2075-1680/11/6/253
+      \endverb
+    \endentry
+    \entry{ONU2025}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=743e67da76946a8fc63ba9b9826883e4}{%
+           family={{ONU - Organização das Nações Unidas}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{743e67da76946a8fc63ba9b9826883e4}
+      \strng{fullhash}{743e67da76946a8fc63ba9b9826883e4}
+      \strng{bibnamehash}{743e67da76946a8fc63ba9b9826883e4}
+      \strng{authorbibnamehash}{743e67da76946a8fc63ba9b9826883e4}
+      \strng{authornamehash}{743e67da76946a8fc63ba9b9826883e4}
+      \strng{authorfullhash}{743e67da76946a8fc63ba9b9826883e4}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{7 - Energia limpa e acessível}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://brasil.un.org/pt-br/sdgs/7
+      \endverb
+      \verb{url}
+      \verb https://brasil.un.org/pt-br/sdgs/7
+      \endverb
+    \endentry
+    \entry{Perrone2011}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fca834360481dd7ae802ec97e5920503}{%
+           family={Perrone},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d2eb4b6fff833e95b8933ac6faea5f7}{%
+           family={Appel},
+           familyi={A\bibinitperiod},
+           given={L.\bibnamedelimi G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=454b01b0c286b6cf54141537e8b9b416}{%
+           family={Lellis},
+           familyi={L\bibinitperiod},
+           given={V.\bibnamedelimi L.\bibnamedelimi M.},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64b6a850e246eb39e448e4e0d06212f3}
+      \strng{fullhash}{d751a3faa83f38703eae12b171d0d214}
+      \strng{bibnamehash}{d751a3faa83f38703eae12b171d0d214}
+      \strng{authorbibnamehash}{d751a3faa83f38703eae12b171d0d214}
+      \strng{authornamehash}{64b6a850e246eb39e448e4e0d06212f3}
+      \strng{authorfullhash}{d751a3faa83f38703eae12b171d0d214}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Waste Biomass Valor}
+      \field{title}{Ethanol: An Evaluation of its Scientific and Technological Development and Network of Players During the Period of 1995 to 2009}
+      \field{volume}{2}
+      \field{year}{2011}
+      \field{pages}{17\bibrangedash 32}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s12649-010-9049-z
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s12649-010-9049-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s12649-010-9049-z
+      \endverb
+    \endentry
+    \entry{SEADE2025}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e9f87b03e6dceefff782ec78c67c1e96}{%
+           family={{SEADE - Sistema Estadual de Análise de Dados}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9f87b03e6dceefff782ec78c67c1e96}
+      \strng{fullhash}{e9f87b03e6dceefff782ec78c67c1e96}
+      \strng{bibnamehash}{e9f87b03e6dceefff782ec78c67c1e96}
+      \strng{authorbibnamehash}{e9f87b03e6dceefff782ec78c67c1e96}
+      \strng{authornamehash}{e9f87b03e6dceefff782ec78c67c1e96}
+      \strng{authorfullhash}{e9f87b03e6dceefff782ec78c67c1e96}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{São Paulo lidera produção de etanol no país}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://informa.seade.gov.br/sao-paulo-lidera-producao-de-etanol-no-pais/
+      \endverb
+      \verb{url}
+      \verb https://informa.seade.gov.br/sao-paulo-lidera-producao-de-etanol-no-pais/
+      \endverb
+    \endentry
+    \entry{SEBRAE2025}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9eab6cc4b12848dca8d17f04e3b7b635}{%
+           family={{SEBRAE - Serviço Brasileiro de Apoio às Micro e Pequenas Empresas}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9eab6cc4b12848dca8d17f04e3b7b635}
+      \strng{fullhash}{9eab6cc4b12848dca8d17f04e3b7b635}
+      \strng{bibnamehash}{9eab6cc4b12848dca8d17f04e3b7b635}
+      \strng{authorbibnamehash}{9eab6cc4b12848dca8d17f04e3b7b635}
+      \strng{authornamehash}{9eab6cc4b12848dca8d17f04e3b7b635}
+      \strng{authorfullhash}{9eab6cc4b12848dca8d17f04e3b7b635}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{O que é patente?}}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://sebrae.com.br/sites/PortalSebrae/ufs/mt/artigos/o-que-e-patente,af88f8ba5a17a510VgnVCM1000004c00210aRCRD
+      \endverb
+      \verb{url}
+      \verb https://sebrae.com.br/sites/PortalSebrae/ufs/mt/artigos/o-que-e-patente,af88f8ba5a17a510VgnVCM1000004c00210aRCRD
+      \endverb
+    \endentry
+    \entry{EMBRAPA2025a}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=11a3f921148f50765bf93fa3e1064a43}{%
+           family={Vian},
+           familyi={V\bibinitperiod},
+           given={Carlos\bibnamedelimb Eduardos\bibnamedelima Freitas},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Empresa Brasileira De Pesquisa Agropecuária - EMBRAPA}%
+      }
+      \strng{namehash}{11a3f921148f50765bf93fa3e1064a43}
+      \strng{fullhash}{11a3f921148f50765bf93fa3e1064a43}
+      \strng{bibnamehash}{11a3f921148f50765bf93fa3e1064a43}
+      \strng{authorbibnamehash}{11a3f921148f50765bf93fa3e1064a43}
+      \strng{authornamehash}{11a3f921148f50765bf93fa3e1064a43}
+      \strng{authorfullhash}{11a3f921148f50765bf93fa3e1064a43}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 20 ago. 2025.}
+      \field{title}{{Etanol}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/cultivos/cana/pos-producao/alcool/tecnologias-emergentes/etanol
+      \endverb
+      \verb{url}
+      \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/cultivos/cana/pos-producao/alcool/tecnologias-emergentes/etanol
+      \endverb
+    \endentry
+    \entry{Zhu2005}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c0589c96d31566f50f3aa4f931a33357}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xiaojin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Wisconsin-Madison Department of Computer Sciences}%
+      }
+      \strng{namehash}{c0589c96d31566f50f3aa4f931a33357}
+      \strng{fullhash}{c0589c96d31566f50f3aa4f931a33357}
+      \strng{bibnamehash}{c0589c96d31566f50f3aa4f931a33357}
+      \strng{authorbibnamehash}{c0589c96d31566f50f3aa4f931a33357}
+      \strng{authornamehash}{c0589c96d31566f50f3aa4f931a33357}
+      \strng{authorfullhash}{c0589c96d31566f50f3aa4f931a33357}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Semi-Supervised Learning Literature Survey}}
+      \field{type}{techreport}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb http://digital.library.wisc.edu/1793/60444
+      \endverb
+      \verb{url}
+      \verb http://digital.library.wisc.edu/1793/60444
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
