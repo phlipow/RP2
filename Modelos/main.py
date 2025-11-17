@@ -10,8 +10,12 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from treinamento import get_svm, get_rf, get_dados_rotulados
 
+pd.options.display.max_columns = None
+# Define uma largura de exibição maior (ex: 1000 caracteres) para evitar quebrar a linha
+pd.options.display.width = 1000
+
 #----------- Trata os dados ----------------
-df = pd.read_csv('dados_patentes_final.csv', delimiter=';') # Try a different encoding
+df = pd.read_csv('../Data/dados_patentes_final.csv', delimiter=';') # Try a different encoding
 
 df_variaveis = df[colunas_variaveis].copy()
 

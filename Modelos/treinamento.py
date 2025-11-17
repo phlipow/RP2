@@ -15,12 +15,12 @@ def get_svm(X, y):
     }
 
     grid_search = GridSearchCV(
-        SVC(probability=True),
-        param_grid,
+        estimator=SVC(probability=True),
+        param_grid=param_grid,
         refit=True,  # refit=True retreina o melhor modelo com todos os dados no final
-        # verbose=2,  # Mostra o progresso
         scoring='f1',  # vai otimizar para f1 score
         cv=5, #validação cruzada de 5 partes (k-fold)
+        #verbose=2,  # Mostra o progresso
     )
 
     grid_search.fit(X, y)
@@ -40,9 +40,10 @@ def get_rf(X, y):
     grid_search_rf = GridSearchCV(
         estimator=RandomForestClassifier(random_state=42),
         param_grid=param_grid_rf,
+        refit=True,
         scoring='f1',
         cv=5,
-        n_jobs=-1,
+        #n_jobs=-1,
         # verbose=2
     )
 
