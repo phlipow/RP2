@@ -160,6 +160,36 @@ def extract_patent_data(soup):
 
     description_title_word_overlap = sum(title_words.count(w) for w in top_10_words)
 
+# Assignee
+    assignee = ""
+    assignee_element = soup.find("state-modifier", {"data-assignee": True})
+    if assignee_element:
+        link = assignee_element.find("a")
+        if link:
+            assignee = link.get_text(strip=True)
+
+# Number of claims
+    claims_section = soup.find("section", id="claims")
+    claims_count = 0
+    if claims_section:
+        claims = claims_section.find_all("div", class_="claim-text")
+        claims_count = len(claims)
+
+# Non-patent literature citations
+    npl_citations = []
+    npl_citations_section = soup.find("h3", id="nplCitations")
+    if npl_citations_section:
+        table = npl_citations_section.find_next("div", class_="table style-scope patent-result")
+        if table:
+            rows = table.find_all("div", class_="tr style-scope patent-result")
+            for row in rows:
+                if "thead" in row.get("class", []):
+                    continue
+                citation_element = row.find("div", class_="td style-scope patent-result")
+                if citation_element:
+                    npl_citations.append(citation_element.get_text(strip=True))
+
+
 #Final Dict
 
     patent_data = {
@@ -180,6 +210,9 @@ def extract_patent_data(soup):
         "priority_applications_count": priority_applications_count,
         "title_nouns_count": title_nouns_count,
         "description_title_word_overlap": description_title_word_overlap,
+        "assignee": assignee,
+        "claims_count": claims_count,
+        "npl_citations": npl_citations,
     }
 
     return patent_data
